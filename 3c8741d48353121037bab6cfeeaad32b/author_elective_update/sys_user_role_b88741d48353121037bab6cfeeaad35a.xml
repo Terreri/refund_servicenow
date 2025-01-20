@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Refund Administrator</description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1584312_refund.administrator</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>administrator</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 13:53:49</sys_created_on>
+        <sys_id>b88741d48353121037bab6cfeeaad35a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1584312_refund.administrator</sys_name>
+        <sys_package display_value="Refund" source="x_1584312_refund">3c8741d48353121037bab6cfeeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3c8741d48353121037bab6cfeeaad32b</sys_scope>
+        <sys_update_name>sys_user_role_b88741d48353121037bab6cfeeaad35a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 13:53:49</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund">3c8741d48353121037bab6cfeeaad32b</application>
+        <file_path/>
+        <instance_id>2dd39a603b8296d0baf6048aa4e45a54</instance_id>
+        <instance_name>dev290625</instance_name>
+        <name>sys_user_role_b88741d48353121037bab6cfeeaad35a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>Refund Administrator</description><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_1584312_refund.administrator</name><scoped_admin>false</scoped_admin><suffix>administrator</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-20 13:53:49</sys_created_on><sys_id>b88741d48353121037bab6cfeeaad35a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1584312_refund.administrator</sys_name><sys_package display_value="Refund" source="x_1584312_refund">3c8741d48353121037bab6cfeeaad32b</sys_package><sys_policy/><sys_scope display_value="Refund">3c8741d48353121037bab6cfeeaad32b</sys_scope><sys_update_name>sys_user_role_b88741d48353121037bab6cfeeaad35a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-20 13:53:49</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>951698038</payload_hash>
+        <record_name>x_1584312_refund.administrator</record_name>
+        <reverted_from/>
+        <source>388741d48353121037bab6cfeeaad330</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 13:53:49</sys_created_on>
+        <sys_id>f08741d48353121037bab6cfeeaad35f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19483fdb4f80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 13:53:49</sys_updated_on>
+        <type>Role</type>
+        <update_guid>f48741d4e2531210c1d11c0ad5ded45e</update_guid>
+        <update_guid_history>f48741d4e2531210c1d11c0ad5ded45e:951698038</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1584312_refund.administrator">c1180dd48353121037bab6cfeeaad36a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 13:56:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>7cc6e15edfc946e2bccc19b858f36e39</sys_id>
+        <sys_metadata>b88741d48353121037bab6cfeeaad35a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1584312_refund.administrator</sys_name>
+        <sys_package display_value="Refund" source="x_1584312_refund">3c8741d48353121037bab6cfeeaad32b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3c8741d48353121037bab6cfeeaad32b</sys_scope>
+        <sys_scope_delete display_value="">14e3a60c3830458987b4501f3b99ef41</sys_scope_delete>
+        <sys_update_name>sys_user_role_b88741d48353121037bab6cfeeaad35a</sys_update_name>
+        <sys_update_version display_value="sys_user_role_b88741d48353121037bab6cfeeaad35a">f08741d48353121037bab6cfeeaad35f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 13:56:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
