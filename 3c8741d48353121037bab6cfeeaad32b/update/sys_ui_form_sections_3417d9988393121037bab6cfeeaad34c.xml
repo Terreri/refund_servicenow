@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="3417d9988393121037bab6cfeeaad34c" sys_domain="global" table="x_1584312_refund_refund" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 15:01:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4517d9988393121037bab6cfeeaad350</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1584312_refund_refund" name="x_1584312_refund_refund" sys_domain="global" view="Default view">3417d9988393121037bab6cfeeaad34c</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1584312_refund_refund" sys_domain="global" view="Default view">93c219908393121037bab6cfeeaad39e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 15:01:50</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 15:01:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c117d9988393121037bab6cfeeaad351</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1584312_refund_refund" name="x_1584312_refund_refund" sys_domain="global" view="Default view">3417d9988393121037bab6cfeeaad34c</sys_ui_form>
+            <sys_ui_section caption="Amount" display_value="Amount" name="x_1584312_refund_refund" sys_domain="global" view="Default view">3417d9988393121037bab6cfeeaad34b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 15:01:50</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 15:04:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>37b7d5d88393121037bab6cfeeaad3dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1584312_refund_refund" name="x_1584312_refund_refund" sys_domain="global" view="Default view">3417d9988393121037bab6cfeeaad34c</sys_ui_form>
+            <sys_ui_section caption="Dates" display_value="Dates" name="x_1584312_refund_refund" sys_domain="global" view="Default view">ffb7d5d88393121037bab6cfeeaad3da</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 15:04:44</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1584312_refund_refund</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-20 15:01:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3417d9988393121037bab6cfeeaad34c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1584312_refund_refund</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Refund" source="x_1584312_refund">3c8741d48353121037bab6cfeeaad32b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Refund">3c8741d48353121037bab6cfeeaad32b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_3417d9988393121037bab6cfeeaad34c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-20 15:01:49</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
