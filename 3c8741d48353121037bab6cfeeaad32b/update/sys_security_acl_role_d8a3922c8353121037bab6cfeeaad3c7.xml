@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 15:59:22</sys_created_on>
+        <sys_id>d8a3922c8353121037bab6cfeeaad3c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1584312_refund_refund.number.x_1584312_refund.hr_manager</sys_name>
+        <sys_package display_value="Refund" source="x_1584312_refund">3c8741d48353121037bab6cfeeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3c8741d48353121037bab6cfeeaad32b</sys_scope>
+        <sys_security_acl display_value="x_1584312_refund_refund.number">e9225a288353121037bab6cfeeaad337</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d8a3922c8353121037bab6cfeeaad3c7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 15:59:22</sys_updated_on>
+        <sys_user_role display_value="x_1584312_refund.hr_manager" name="x_1584312_refund.hr_manager">ea29c1588353121037bab6cfeeaad351</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

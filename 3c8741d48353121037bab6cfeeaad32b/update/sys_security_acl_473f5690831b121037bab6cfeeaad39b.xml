@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description>Allow write for all fields in x_1584312_refund_refund, for users with role x_1584312_refund.hr_resolver.</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1584312_refund_refund.*</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 20:19:47</sys_created_on>
+        <sys_id>473f5690831b121037bab6cfeeaad39b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>x_1584312_refund_refund.*</sys_name>
+        <sys_package display_value="Refund" source="x_1584312_refund">3c8741d48353121037bab6cfeeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3c8741d48353121037bab6cfeeaad32b</sys_scope>
+        <sys_update_name>sys_security_acl_473f5690831b121037bab6cfeeaad39b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 13:48:47</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>473f5690831b121037bab6cfeeaad39b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 13:04:19</sys_created_on>
+        <sys_id>e9c54a288313121037bab6cfeeaad35e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 13:04:19</sys_updated_on>
+        <table>sys_security_acl</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

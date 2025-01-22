@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Refund Application">6a6986188397121037bab6cfeeaad3ad</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_1584312_refund_refund">sys_created_by=me^EQ<item endquery="false" field="sys_created_by" goto="false" newquery="false" operator="=" or="false" value="me"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Refunds</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1584312_refund_refund</name>
+        <order>200</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1584312_refund.requester</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 18:44:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5c2a0ed48397121037bab6cfeeaad389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Refunds</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Refund" source="x_1584312_refund">3c8741d48353121037bab6cfeeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3c8741d48353121037bab6cfeeaad32b</sys_scope>
+        <sys_update_name>sys_app_module_5c2a0ed48397121037bab6cfeeaad389</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 18:44:52</sys_updated_on>
+        <timeline_page/>
+        <title>My Refunds</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

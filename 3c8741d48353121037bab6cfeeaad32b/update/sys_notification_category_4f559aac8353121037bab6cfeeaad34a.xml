@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_notification_category">
+    <sys_notification_category action="INSERT_OR_UPDATE">
+        <name>Refund</name>
+        <short_description/>
+        <sys_class_name>sys_notification_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 14:12:31</sys_created_on>
+        <sys_id>4f559aac8353121037bab6cfeeaad34a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refund</sys_name>
+        <sys_package display_value="Refund" source="x_1584312_refund">3c8741d48353121037bab6cfeeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3c8741d48353121037bab6cfeeaad32b</sys_scope>
+        <sys_update_name>sys_notification_category_4f559aac8353121037bab6cfeeaad34a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 14:12:31</sys_updated_on>
+    </sys_notification_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=4f559aac8353121037bab6cfeeaad34a"/>
+</record_update>

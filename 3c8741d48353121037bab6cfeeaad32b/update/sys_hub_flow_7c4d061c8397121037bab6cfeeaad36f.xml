@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=671000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>create_group_for_refund_categories</internal_name>
+        <label_cache>[{"name":"46fe9ec4-b435-4e8a-a259-d9d4d346047f.record","label":"1 - Create Record➛Group Record","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"0b88df83-0690-4777-a7ed-ca16b0e2b700":["related_group"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Refund Category Record","reference":"x_1584312_refund_refund_category","reference_display":"Refund Category","type":"reference","base_type":"reference","usedInstances":{"0b88df83-0690-4777-a7ed-ca16b0e2b700":["record"]},"attributes":{}},{"name":"Created_1.current.name","label":"Trigger - Record Created➛Refund Category Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1584312_refund_refund_category","column_name":"name","usedInstances":{"46fe9ec4-b435-4e8a-a259-d9d4d346047f":["name"]}}]</label_cache>
+        <master_snapshot>a80e429c8397121037bab6cfeeaad3ca</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Create Group For Refund Categories</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>f80e429c8397121037bab6cfeeaad3e8</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 18:58:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7c4d061c8397121037bab6cfeeaad36f</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Create Group For Refund Categories</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Refund" source="x_1584312_refund">3c8741d48353121037bab6cfeeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3c8741d48353121037bab6cfeeaad32b</sys_scope>
+        <sys_update_name>sys_hub_flow_7c4d061c8397121037bab6cfeeaad36f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 19:42:38</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=7c4d061c8397121037bab6cfeeaad36f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7c4d061c8397121037bab6cfeeaad36f"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1584312_refund_refund_category">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 19:01:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f80e429c8397121037bab6cfeeaad3e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Refund">3c8741d48353121037bab6cfeeaad32b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 19:01:50</sys_updated_on>
+        <table>x_1584312_refund_refund_category</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>7c4d061c8397121037bab6cfeeaad36f</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 19:09:45</sys_created_on>
+        <sys_id>30dfc61083d7121037bab6cfeeaad38c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 19:42:38</sys_updated_on>
+        <trigger display_value="">f80e429c8397121037bab6cfeeaad3e8</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=7c4d061c8397121037bab6cfeeaad36f^sys_idNOT IN30dfc61083d7121037bab6cfeeaad38c"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=7c4d061c8397121037bab6cfeeaad36f"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=7c4d061c8397121037bab6cfeeaad36f^sys_idNOT IN3c4d061c8397121037bab6cfeeaad370"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>7c4d061c8397121037bab6cfeeaad36f</id>
+        <name>Create Group For Refund Categories</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 18:58:33</sys_created_on>
+        <sys_id>3c4d061c8397121037bab6cfeeaad370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 18:58:33</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=3c4d061c8397121037bab6cfeeaad370"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=7c4d061c8397121037bab6cfeeaad36f^sys_idNOT IN840e0a5c8397121037bab6cfeeaad368,f7fd0a5c8397121037bab6cfeeaad364"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create Group For Refund Categories">7c4d061c8397121037bab6cfeeaad36f</model>
+        <model_id>7c4d061c8397121037bab6cfeeaad36f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_7c4d061c8397121037bab6cfeeaad36f</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 19:01:47</sys_created_on>
+        <sys_id>840e0a5c8397121037bab6cfeeaad368</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3c8741d48353121037bab6cfeeaad32b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 19:01:47</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=840e0a5c8397121037bab6cfeeaad368"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create Group For Refund Categories">7c4d061c8397121037bab6cfeeaad36f</model>
+        <model_id>7c4d061c8397121037bab6cfeeaad36f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_7c4d061c8397121037bab6cfeeaad36f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 19:01:46</sys_created_on>
+        <sys_id>f7fd0a5c8397121037bab6cfeeaad364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3c8741d48353121037bab6cfeeaad32b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 19:01:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f7fd0a5c8397121037bab6cfeeaad364"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=7c4d061c8397121037bab6cfeeaad36f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7c4d061c8397121037bab6cfeeaad36f"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=7c4d061c8397121037bab6cfeeaad36f^sys_idNOT IN880e429c8397121037bab6cfeeaad344"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Group For Refund Categories">7c4d061c8397121037bab6cfeeaad36f</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 19:01:47</sys_created_on>
+        <sys_id>880e429c8397121037bab6cfeeaad344</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 19:01:49</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/+Va32+jRhD+VxBPPSmV+GEbk7c7J6dGul5aJ9c+RClaYNZGxYsLC4l7yv/eWVgwxpBgO9ezcy+J2F1m5pv95ptl5buvakhcCNVz9Za4IahnasA4xIyEt6sl4DAXww4jCzG3IMwnPIpX6jmPUzhTo9iHWD3Xz9SMhCncrJIrH1/Cpfkb8nVVTuPzo6MPxwNTN5wYaMr88p9HOMyE4TPVD5JlSFZ/yDem+QJlsl6wJDEa58LxV9WbB6EfA1PP7+4xeOHdox6xDdA8UzcNQ9OM8UB3R6arG75JQNPQRBN0I1regn0NFR45MB/QFSVhAi1piYH41yxcVSvmmNUiLwvymAT/ovWxJtZRwNg9KOaqR0fmoBj25lHgwfWSBxErRoo4i8koTBfscxG/yB5Qkoa8zB6OpAnag6UIWQQhI6I38+hhWjr8GLAcnZwMI4+E1RPhPA7clEMiEk6DEFPvFLlJojTOo59eTq6nF86f728nv1xOnenlze30anJ7eaE+5bicf1JhsYhQxuIUcJ6qLf8YQCg2UGY88eJgyd97PMhABvN0tiZsnDK04FS7sUXdIm9VAj8FCcK/QwRlcnKTOE8/SZPTlCkR7hv+Ubw0xtRwpeQEvVqQmUwp/a2kYJ4SyZ6MxI6zcJJV4sxT18GkzWaYqYAtU+5Y9tjWR6SDlJa3kZi8WtD0nareP4m9ghA8XmMc/ZLUn34NkiRgs1qSKoyCkNsQK3TIXKXMYAE1OS2s9xvlJxeVtappncK0zZ6swYqGDvUQHl2n1AVqaJZArWumS3XN0oaE+qameUZNeLbdd8bFG2yug3tOiuRIHy0a7KhFSV5HYY+qaSa1DL5eyL0omW3yWdoxxP5LyZscYWgN6TZ30u6KiMXwRaMvPgPtlSWf+BnBN/wSYx9J7yHeD3NgTgKci3LeXb0Zlkn+Dimc1ERO8F0RCaJRrHyO2M9X63XKDaCAYJwnJXN1Se8DGo3FyptC7UZ83mxkAukHHN9AKoq0Y89/oN7WKK5sM4t79DYYjIc2NT0LMWM3owNwiT4whsS2Ria1G72t4b47sKPvbj21JOtUpba+0rdWs9aSrzpMo1PtUw4NYkjT5gt99cdNykEdvay+zoa+T7Cn0expGD0gB/bo8y7x/p7FUcr8LflHm0rAlPUK5SeZ23enpfT1RoccgOfxbq44HZSH9LM1f8riJKzltqhHJzOp7towAA0/zkzsZO7Qtl2PGJRaIwsMvdHJ1o5bozn6/tWjULK2Suv6HGolYdbG3R2+0b5/gAfpuqRiq6wXc8cv0pOI+QEvOmxTosupRN2zgr2a8XIr/rr8fbt+i8GXSng0IsSHLtFyaa2E67BaguEtCL9JCWvf6bq3uJDem2iLyIfwYm1O3egeIlsPhPHE4ZFDfN+p5bEnMwtsO1wYIL74oFsD4RiciNa760Wk4ISCTpSAKhIj+Iq7UvgcUEpCFBV0qAjvJ/YVWT9bbCOvDt1vGnchwlt3BzicIzstYAdfCzRK6NADFfgWGQ5Nq/1qwG4eqNpCeCHCoz9k7awfWZscPftRvJvdps3Wz+Ia/Tc50PMW4A2j/mbHwZYojv9suFmXoWiqW513FgY+lHOvoE/SUrbWod2ViY5tb6hbHco0HnYqk3T+XGC8Bfb/cnIUDUgyp02hvhRTx/Wjgdfi5P1/WvuHKLEiAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=7c4d061c8397121037bab6cfeeaad36f^sys_idNOT IN440e429c8397121037bab6cfeeaad346,fbcf861083d7121037bab6cfeeaad38e"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Group For Refund Categories">7c4d061c8397121037bab6cfeeaad36f</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 19:01:47</sys_created_on>
+        <sys_id>440e429c8397121037bab6cfeeaad346</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Refund">3c8741d48353121037bab6cfeeaad32b</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-01-20 19:22:43</sys_updated_on>
+        <ui_id>46fe9ec4-b435-4e8a-a259-d9d4d346047f</ui_id>
+        <values>H4sIAAAAAAAA/9VUy27bMBD8FYNnQZCs1Eh8Kxy4lzYBmsKXNCAocWUToCiVDyeq4H/vUqQcI4nRBuglunH2wZnlju4HIjhZkkUO2aerfFEVeVHMs2x+eZGXi6LM57xgABckIYo1gJmWlRLoeEjInknnQdMb6gxoutWt6zDAhekk6zcx/iXC1U5IrkGR5f1DQjqmsY0FTZbDi9C/kpKsBImpPzyrMyRt372JfT2tnd2EQKu555MlBJ4sKA5IpGbSQEIapjizre7J0mqHgAbGb5Xsjxk7oSw2JD73yYjfeO1l5vNqQGUVhNjxSOOUAlxfM8vusHNlnY6p1a4VFZgwEw41c9KuTrGQcNtZ0apQMsqM1a10jboJIyHHBtOjIIJvRjl0XqdnHmXUd7v28fvEci3UOJIYlG3F5PHErNWidNbzGQhIaLARbVjXCbWlnW73YixGLk26lXhIa9k+4qVGbFXKKk88xbGydI349QhvmBZexTdsg8WHxO/XSjJjnrXgEOkv55kEZVEDDWPwJZUWnf2MF+wh0j0k07ZzyK7OLlZePi/SuODmZNM9/tNlWcFxQE7x2TCscA8scJqnldM4Mpv6pMPhtQ3eV/xOs/xd02SWtQDJzRsiJ6dAg6wt0CD6hVticLaJweiY/H85Jl9k4/eBfBPEfXjbnPwhzxjo4Q9j4hTYMAYAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Group For Refund Categories">7c4d061c8397121037bab6cfeeaad36f</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 19:09:41</sys_created_on>
+        <sys_id>fbcf861083d7121037bab6cfeeaad38e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Refund">3c8741d48353121037bab6cfeeaad32b</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-01-20 19:22:43</sys_updated_on>
+        <ui_id>0b88df83-0690-4777-a7ed-ca16b0e2b700</ui_id>
+        <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPECUkMOCtAlWa1LUSnXjpqsixb6gl52OOTWER/33XiQOIoo5KfanGS+T7YZ9zuMd+qongZEYi4H4wDcYsDMJw6PvDSRQk4zAJhjykAAHpk5xmgJUKWKE4rjdUGhuo67kCqoHHgceMUpDr/R7zXFSlpLuVK8MIexGSY57Mnp77pKQKd9SgyKw+S10LSdIEJJYuO0znGPWutGteMJMhrlh0wTvXuXCZ3vcFZrDJwgn8PoGthpwDAkmprKBPMppzqgu1IzOtDAaQNH/I5e5Q8SJy3RLN6LYSf/DkyLd1KSAz5kQ4LGMnUBtOF1TTR9yZaaMOehWCQdVqwiGlRur5aawteCi1KPK2RdNEdt2FNFl+3ypCDhuc/B+mQhBQWp4WeUsrfXwpXpcdyFuRN5I4irJgVB5WVGslEqMtnJqAhEbjjJalyNdxqYqNaJoRSuatJS68VBaveGYl1rlHmcXtoarUu8X4ogmvqBKWxA/cBpv3fVLtqrmkVXWkghrGv41F0hJzFOJGhUaCuJkE28yUKPUNHrUBB3zfd0OfjN6bMDY9DtTJnsfB38bBaBKFwTBGPCbn3YehGdZ2UN54YNkU9ObHgo9Z4grAnSV+NoNwmYBzxZvY3Wlv775NOE+MPs0Tk6/kCUfjy5viX1bwh+9etieT1Ex/dWIDBbK5/deqMOUv4/shr+tonMIUWDRIonA0iGBCB3Q4mg74lEc8jMZ+9C312mv60mPxKXt+zFtXKNB561aA5NUFSTpjQVZa/HEr0Zm5XLK3csnDo/NpDgvGfvP7Qj77b96e578iB+oYcgkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=7c4d061c8397121037bab6cfeeaad36f"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=7c4d061c8397121037bab6cfeeaad36f"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=7c4d061c8397121037bab6cfeeaad36f"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=7c4d061c8397121037bab6cfeeaad36f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_7c4d061c8397121037bab6cfeeaad36f^sys_idNOT IN440e0a5c8397121037bab6cfeeaad36a,b7fd0a5c8397121037bab6cfeeaad367"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7c4d061c8397121037bab6cfeeaad36f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 19:01:47</sys_created_on>
+        <sys_id>440e0a5c8397121037bab6cfeeaad36a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Refund" source="x_1584312_refund">3c8741d48353121037bab6cfeeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3c8741d48353121037bab6cfeeaad32b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 19:01:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7c4d061c8397121037bab6cfeeaad36f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 19:01:47</sys_created_on>
+        <sys_id>b7fd0a5c8397121037bab6cfeeaad367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Refund" source="x_1584312_refund">3c8741d48353121037bab6cfeeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3c8741d48353121037bab6cfeeaad32b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 19:01:47</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_7c4d061c8397121037bab6cfeeaad36f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_7c4d061c8397121037bab6cfeeaad36f"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_7c4d061c8397121037bab6cfeeaad36f"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>create_group_for_refund_categories</internal_name>
+        <label_cache>[{"name":"46fe9ec4-b435-4e8a-a259-d9d4d346047f.record","label":"1 - Create Record➛Group Record","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"0b88df83-0690-4777-a7ed-ca16b0e2b700":["related_group"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Refund Category Record","reference":"x_1584312_refund_refund_category","reference_display":"Refund Category","type":"reference","base_type":"reference","usedInstances":{"0b88df83-0690-4777-a7ed-ca16b0e2b700":["record"]},"attributes":{}},{"name":"Created_1.current.name","label":"Trigger - Record Created➛Refund Category Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1584312_refund_refund_category","column_name":"name","usedInstances":{"46fe9ec4-b435-4e8a-a259-d9d4d346047f":["name"]}}]</label_cache>
+        <master>true</master>
+        <name>Create Group For Refund Categories</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Create Group For Refund Categories">7c4d061c8397121037bab6cfeeaad36f</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 19:01:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a80e429c8397121037bab6cfeeaad3ca</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3c8741d48353121037bab6cfeeaad32b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 19:09:45</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=a80e429c8397121037bab6cfeeaad3ca"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a80e429c8397121037bab6cfeeaad3ca"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=a80e429c8397121037bab6cfeeaad3ca"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=a80e429c8397121037bab6cfeeaad3ca^sys_idNOT INe80e429c8397121037bab6cfeeaad3cb"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>a80e429c8397121037bab6cfeeaad3ca</id>
+        <name>Create Group For Refund Categories</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 19:01:49</sys_created_on>
+        <sys_id>e80e429c8397121037bab6cfeeaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 19:01:49</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=e80e429c8397121037bab6cfeeaad3cb"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=a80e429c8397121037bab6cfeeaad3ca^sys_idNOT INa80e429c8397121037bab6cfeeaad3cc,e80e429c8397121037bab6cfeeaad3d6"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create Group For Refund Categories">a80e429c8397121037bab6cfeeaad3ca</model>
+        <model_id>a80e429c8397121037bab6cfeeaad3ca</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_a80e429c8397121037bab6cfeeaad3ca</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 19:01:49</sys_created_on>
+        <sys_id>a80e429c8397121037bab6cfeeaad3cc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3c8741d48353121037bab6cfeeaad32b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 19:09:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a80e429c8397121037bab6cfeeaad3cc"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Create Group For Refund Categories">a80e429c8397121037bab6cfeeaad3ca</model>
+        <model_id>a80e429c8397121037bab6cfeeaad3ca</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_a80e429c8397121037bab6cfeeaad3ca</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 19:01:49</sys_created_on>
+        <sys_id>e80e429c8397121037bab6cfeeaad3d6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3c8741d48353121037bab6cfeeaad32b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 19:09:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e80e429c8397121037bab6cfeeaad3d6"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=a80e429c8397121037bab6cfeeaad3ca"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a80e429c8397121037bab6cfeeaad3ca"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=a80e429c8397121037bab6cfeeaad3ca^sys_idNOT INfc0e429c8397121037bab6cfeeaad3e1"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Create Group For Refund Categories">a80e429c8397121037bab6cfeeaad3ca</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 19:01:50</sys_created_on>
+        <sys_id>fc0e429c8397121037bab6cfeeaad3e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 19:01:50</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/+Va32+jRhD+VxBPPSmV+GEbk7c7J6dGul5aJ9c+RClaYNZGxYsLC4l7yv/eWVgwxpBgO9ezcy+J2F1m5pv95ptl5buvakhcCNVz9Za4IahnasA4xIyEt6sl4DAXww4jCzG3IMwnPIpX6jmPUzhTo9iHWD3Xz9SMhCncrJIrH1/Cpfkb8nVVTuPzo6MPxwNTN5wYaMr88p9HOMyE4TPVD5JlSFZ/yDem+QJlsl6wJDEa58LxV9WbB6EfA1PP7+4xeOHdox6xDdA8UzcNQ9OM8UB3R6arG75JQNPQRBN0I1regn0NFR45MB/QFSVhAi1piYH41yxcVSvmmNUiLwvymAT/ovWxJtZRwNg9KOaqR0fmoBj25lHgwfWSBxErRoo4i8koTBfscxG/yB5Qkoa8zB6OpAnag6UIWQQhI6I38+hhWjr8GLAcnZwMI4+E1RPhPA7clEMiEk6DEFPvFLlJojTOo59eTq6nF86f728nv1xOnenlze30anJ7eaE+5bicf1JhsYhQxuIUcJ6qLf8YQCg2UGY88eJgyd97PMhABvN0tiZsnDK04FS7sUXdIm9VAj8FCcK/QwRlcnKTOE8/SZPTlCkR7hv+Ubw0xtRwpeQEvVqQmUwp/a2kYJ4SyZ6MxI6zcJJV4sxT18GkzWaYqYAtU+5Y9tjWR6SDlJa3kZi8WtD0nareP4m9ghA8XmMc/ZLUn34NkiRgs1qSKoyCkNsQK3TIXKXMYAE1OS2s9xvlJxeVtappncK0zZ6swYqGDvUQHl2n1AVqaJZArWumS3XN0oaE+qameUZNeLbdd8bFG2yug3tOiuRIHy0a7KhFSV5HYY+qaSa1DL5eyL0omW3yWdoxxP5LyZscYWgN6TZ30u6KiMXwRaMvPgPtlSWf+BnBN/wSYx9J7yHeD3NgTgKci3LeXb0Zlkn+Dimc1ERO8F0RCaJRrHyO2M9X63XKDaCAYJwnJXN1Se8DGo3FyptC7UZ83mxkAukHHN9AKoq0Y89/oN7WKK5sM4t79DYYjIc2NT0LMWM3owNwiT4whsS2Ria1G72t4b47sKPvbj21JOtUpba+0rdWs9aSrzpMo1PtUw4NYkjT5gt99cdNykEdvay+zoa+T7Cn0expGD0gB/bo8y7x/p7FUcr8LflHm0rAlPUK5SeZ23enpfT1RoccgOfxbq44HZSH9LM1f8riJKzltqhHJzOp7towAA0/zkzsZO7Qtl2PGJRaIwsMvdHJ1o5bozn6/tWjULK2Suv6HGolYdbG3R2+0b5/gAfpuqRiq6wXc8cv0pOI+QEvOmxTosupRN2zgr2a8XIr/rr8fbt+i8GXSng0IsSHLtFyaa2E67BaguEtCL9JCWvf6bq3uJDem2iLyIfwYm1O3egeIlsPhPHE4ZFDfN+p5bEnMwtsO1wYIL74oFsD4RiciNa760Wk4ISCTpSAKhIj+Iq7UvgcUEpCFBV0qAjvJ/YVWT9bbCOvDt1vGnchwlt3BzicIzstYAdfCzRK6NADFfgWGQ5Nq/1qwG4eqNpCeCHCoz9k7awfWZscPftRvJvdps3Wz+Ia/Tc50PMW4A2j/mbHwZYojv9suFmXoWiqW513FgY+lHOvoE/SUrbWod2ViY5tb6hbHco0HnYqk3T+XGC8Bfb/cnIUDUgyp02hvhRTx/Wjgdfi5P1/WvuHKLEiAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=a80e429c8397121037bab6cfeeaad3ca^sys_idNOT IN380e429c8397121037bab6cfeeaad3e1,a0dfc61083d7121037bab6cfeeaad35f"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Group For Refund Categories">a80e429c8397121037bab6cfeeaad3ca</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 19:01:50</sys_created_on>
+        <sys_id>380e429c8397121037bab6cfeeaad3e1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Refund">3c8741d48353121037bab6cfeeaad32b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 19:01:50</sys_updated_on>
+        <ui_id>46fe9ec4-b435-4e8a-a259-d9d4d346047f</ui_id>
+        <values>H4sIAAAAAAAA/9VUy27bMBD8FYNnQZCs1Eh8Kxy4lzYBmsKXNCAocWUToCiVDyeq4H/vUqQcI4nRBuglunH2wZnlju4HIjhZkkUO2aerfFEVeVHMs2x+eZGXi6LM57xgABckIYo1gJmWlRLoeEjInknnQdMb6gxoutWt6zDAhekk6zcx/iXC1U5IrkGR5f1DQjqmsY0FTZbDi9C/kpKsBImpPzyrMyRt372JfT2tnd2EQKu555MlBJ4sKA5IpGbSQEIapjizre7J0mqHgAbGb5Xsjxk7oSw2JD73yYjfeO1l5vNqQGUVhNjxSOOUAlxfM8vusHNlnY6p1a4VFZgwEw41c9KuTrGQcNtZ0apQMsqM1a10jboJIyHHBtOjIIJvRjl0XqdnHmXUd7v28fvEci3UOJIYlG3F5PHErNWidNbzGQhIaLARbVjXCbWlnW73YixGLk26lXhIa9k+4qVGbFXKKk88xbGydI349QhvmBZexTdsg8WHxO/XSjJjnrXgEOkv55kEZVEDDWPwJZUWnf2MF+wh0j0k07ZzyK7OLlZePi/SuODmZNM9/tNlWcFxQE7x2TCscA8scJqnldM4Mpv6pMPhtQ3eV/xOs/xd02SWtQDJzRsiJ6dAg6wt0CD6hVticLaJweiY/H85Jl9k4/eBfBPEfXjbnPwhzxjo4Q9j4hTYMAYAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Group For Refund Categories">a80e429c8397121037bab6cfeeaad3ca</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 19:09:44</sys_created_on>
+        <sys_id>a0dfc61083d7121037bab6cfeeaad35f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Refund">3c8741d48353121037bab6cfeeaad32b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 19:09:44</sys_updated_on>
+        <ui_id>0b88df83-0690-4777-a7ed-ca16b0e2b700</ui_id>
+        <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPECUkMOCtAlWa1LUSnXjpqsixb6gl52OOTWER/33XiQOIoo5KfanGS+T7YZ9zuMd+qongZEYi4H4wDcYsDMJw6PvDSRQk4zAJhjykAAHpk5xmgJUKWKE4rjdUGhuo67kCqoHHgceMUpDr/R7zXFSlpLuVK8MIexGSY57Mnp77pKQKd9SgyKw+S10LSdIEJJYuO0znGPWutGteMJMhrlh0wTvXuXCZ3vcFZrDJwgn8PoGthpwDAkmprKBPMppzqgu1IzOtDAaQNH/I5e5Q8SJy3RLN6LYSf/DkyLd1KSAz5kQ4LGMnUBtOF1TTR9yZaaMOehWCQdVqwiGlRur5aawteCi1KPK2RdNEdt2FNFl+3ypCDhuc/B+mQhBQWp4WeUsrfXwpXpcdyFuRN5I4irJgVB5WVGslEqMtnJqAhEbjjJalyNdxqYqNaJoRSuatJS68VBaveGYl1rlHmcXtoarUu8X4ogmvqBKWxA/cBpv3fVLtqrmkVXWkghrGv41F0hJzFOJGhUaCuJkE28yUKPUNHrUBB3zfd0OfjN6bMDY9DtTJnsfB38bBaBKFwTBGPCbn3YehGdZ2UN54YNkU9ObHgo9Z4grAnSV+NoNwmYBzxZvY3Wlv775NOE+MPs0Tk6/kCUfjy5viX1bwh+9etieT1Ex/dWIDBbK5/deqMOUv4/shr+tonMIUWDRIonA0iGBCB3Q4mg74lEc8jMZ+9C312mv60mPxKXt+zFtXKNB561aA5NUFSTpjQVZa/HEr0Zm5XLK3csnDo/NpDgvGfvP7Qj77b96e578iB+oYcgkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=a80e429c8397121037bab6cfeeaad3ca"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=a80e429c8397121037bab6cfeeaad3ca"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a80e429c8397121037bab6cfeeaad3ca"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=a80e429c8397121037bab6cfeeaad3ca"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_a80e429c8397121037bab6cfeeaad3ca^sys_idNOT IN600e429c8397121037bab6cfeeaad3d4,e40e429c8397121037bab6cfeeaad3da"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a80e429c8397121037bab6cfeeaad3ca</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 19:01:49</sys_created_on>
+        <sys_id>600e429c8397121037bab6cfeeaad3d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Refund" source="x_1584312_refund">3c8741d48353121037bab6cfeeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3c8741d48353121037bab6cfeeaad32b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 19:01:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a80e429c8397121037bab6cfeeaad3ca</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 19:01:50</sys_created_on>
+        <sys_id>e40e429c8397121037bab6cfeeaad3da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Refund" source="x_1584312_refund">3c8741d48353121037bab6cfeeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3c8741d48353121037bab6cfeeaad32b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 19:01:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_a80e429c8397121037bab6cfeeaad3ca"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_a80e429c8397121037bab6cfeeaad3ca"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a80e429c8397121037bab6cfeeaad3ca"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>7c4d061c8397121037bab6cfeeaad36f</sys_id>
+        <latest_snapshot>a80e429c8397121037bab6cfeeaad3ca</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch4a-12-16-2024_01-07-2025_0947.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=7c4d061c8397121037bab6cfeeaad36f^sys_idNOT INb80e429c8397121037bab6cfeeaad3ea"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"b80e429c8397121037bab6cfeeaad3ea","name":"plan","plan_signature":null}}</plan>
+        <plan_id>7c4d061c8397121037bab6cfeeaad36f</plan_id>
+        <snapshot>66c2161483d7121037bab6cfeeaad34a</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 19:01:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b80e429c8397121037bab6cfeeaad3ea</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 19:09:45</sys_updated_on>
+        <trigger display_value="">f80e429c8397121037bab6cfeeaad3e8</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=7c4d061c8397121037bab6cfeeaad36f"/>
+</record_update>
