@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item/>
+        <catalog_variable>IO:d0cbad508317121037bab6cfeeaad309</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 16:31:06</sys_created_on>
+        <sys_id>6215b6a48317121037bab6cfeeaad3ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>refund_category</sys_name>
+        <sys_package display_value="Refund" source="x_1584312_refund">3c8741d48353121037bab6cfeeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3c8741d48353121037bab6cfeeaad32b</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_6215b6a48317121037bab6cfeeaad3ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 16:31:06</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Default Mandatory Fields">ba9472a48317121037bab6cfeeaad3ed</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>refund_category</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=6215b6a48317121037bab6cfeeaad3ba"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Refund">3c8741d48353121037bab6cfeeaad32b</application>
+        <file_path/>
+        <instance_id>2dd39a603b8296d0baf6048aa4e45a54</instance_id>
+        <instance_name>dev290625</instance_name>
+        <name>catalog_ui_policy_action_6215b6a48317121037bab6cfeeaad3ba</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item/><catalog_variable>IO:d0cbad508317121037bab6cfeeaad309</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-21 16:31:06</sys_created_on><sys_id>6215b6a48317121037bab6cfeeaad3ba</sys_id><sys_mod_count>0</sys_mod_count><sys_name>refund_category</sys_name><sys_package display_value="Refund" source="x_1584312_refund">3c8741d48353121037bab6cfeeaad32b</sys_package><sys_policy/><sys_scope display_value="Refund">3c8741d48353121037bab6cfeeaad32b</sys_scope><sys_update_name>catalog_ui_policy_action_6215b6a48317121037bab6cfeeaad3ba</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-21 16:31:06</sys_updated_on><table/><ui_policy display_value="Default Mandatory Fields">ba9472a48317121037bab6cfeeaad3ed</ui_policy><value/><value_action>ignore</value_action><variable>refund_category</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=6215b6a48317121037bab6cfeeaad3ba"/></record_update>]]></payload>
+        <payload_hash>-365864895</payload_hash>
+        <record_name>refund_category</record_name>
+        <reverted_from/>
+        <source>c16b05d88353121037bab6cfeeaad358</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 19:19:39</sys_created_on>
+        <sys_id>194524498317121037bab6cfeeaad3d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1948f74baac0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 19:19:39</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>d1452449f217121098730cc789e226d6</update_guid>
+        <update_guid_history>d1452449f217121098730cc789e226d6:0,e215b6a41d1712108e54b0130c6170c2:-1179271199</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="refund_category">f718a44d8317121037bab6cfeeaad3c7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 19:32:06</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>59f07d82f47a4e0cadd6ccc3a211be90</sys_id>
+        <sys_metadata>6215b6a48317121037bab6cfeeaad3ba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>refund_category</sys_name>
+        <sys_package display_value="Refund" source="x_1584312_refund">3c8741d48353121037bab6cfeeaad32b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3c8741d48353121037bab6cfeeaad32b</sys_scope>
+        <sys_scope_delete display_value="">14e3a60c3830458987b4501f3b99ef41</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_6215b6a48317121037bab6cfeeaad3ba</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_6215b6a48317121037bab6cfeeaad3ba">194524498317121037bab6cfeeaad3d6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 19:32:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>reproval_reason</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 20:20:26</sys_created_on>
+        <sys_id>f31374c98357121037bab6cfeeaad3bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>reproval_reason</sys_name>
+        <sys_package display_value="Refund" source="x_1584312_refund">3c8741d48353121037bab6cfeeaad32b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Refund">3c8741d48353121037bab6cfeeaad32b</sys_scope>
+        <sys_update_name>sys_ui_policy_action_f31374c98357121037bab6cfeeaad3bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 20:20:26</sys_updated_on>
+        <table>x_1584312_refund_refund</table>
+        <ui_policy display_value="Show Reproval Reason Only f Exist">4be270c98357121037bab6cfeeaad37b</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=f31374c98357121037bab6cfeeaad3bb"/>
+</record_update>
